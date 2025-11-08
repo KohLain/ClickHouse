@@ -1,0 +1,25 @@
+<yandex>
+    <users>
+        <default>
+            <!-- No password defined: user can log in without authentication -->
+            <!-- If you want to use a password, add one of the following lines:
+                 <password>YourPasswordHere</password>
+                 or
+                 <password_sha256_hex>...</password_sha256_hex>
+            -->
+
+            <profile>default</profile>
+
+            <networks>
+                <!-- Allow connections from anywhere -->
+                <ip>::/0</ip>
+            </networks>
+
+            <!-- Full access -->
+            <readonly>0</readonly>
+            <allow_ddl>true</allow_ddl>
+
+            <quota>default</quota>
+        </default>
+    </users>
+</yandex>
